@@ -22,6 +22,7 @@ export default function Dashboard() {
   const [examStarted, setExamStarted] = useState(false);
   const [examResults, setExamResults] = useState<ExamResult[]>([]);
   const [examFinished, setExamFinished] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const shuffledQuestions = useMemo(() => {
     return [...questions].sort(() => Math.random() - 0.5).slice(0, 20);
@@ -83,11 +84,13 @@ export default function Dashboard() {
       <Sidebar
         activeMode={activeMode}
         onModeChange={handleModeChange}
+        isOpen={sidebarOpen}
+        onToggle={() => setSidebarOpen(!sidebarOpen)}
       />
 
       <main className="flex-1 flex flex-col overflow-hidden">
         {/* Header - compact */}
-        <header className="bg-white shadow-sm border-b border-gray-200 px-6 py-3">
+        <header className={`bg-white shadow-sm border-b border-gray-200 py-3 transition-all ${sidebarOpen ? 'px-6' : 'pl-16 pr-6'}`}>
           <div className="flex items-center justify-between">
             <div>
               <h2 className="text-xl font-bold text-gray-900">
