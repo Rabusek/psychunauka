@@ -1,0 +1,111 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e7] [cursor=pointer]:
+    - img [ref=e8]
+  - alert [ref=e11]
+  - generic [ref=e12]:
+    - button [ref=e13]:
+      - img [ref=e14]
+    - complementary [ref=e16]:
+      - generic [ref=e18]:
+        - img [ref=e20]
+        - generic [ref=e22]:
+          - heading "PsychoNauka" [level=1] [ref=e23]
+          - paragraph [ref=e24]: Psychologia Społeczna
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: E
+          - generic [ref=e28]:
+            - heading "examtester" [level=3] [ref=e29]
+            - generic [ref=e30]:
+              - generic [ref=e31]: ★
+              - generic [ref=e32]: Poziom 1
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - generic [ref=e35]: "0"
+            - generic [ref=e36]: Pytań
+          - generic [ref=e37]:
+            - generic [ref=e38]: 0%
+            - generic [ref=e39]: Wynik
+          - generic [ref=e40]:
+            - generic [ref=e41]: 🔥0
+            - generic [ref=e42]: Streak
+      - navigation [ref=e43]:
+        - generic [ref=e44]:
+          - button "Materiały" [active] [ref=e45]:
+            - img [ref=e46]
+            - generic [ref=e48]: Materiały
+          - button "Quiz" [ref=e49]:
+            - img [ref=e50]
+            - generic [ref=e53]: Quiz
+          - button "Tryb Egzaminu" [ref=e54]:
+            - img [ref=e55]
+            - generic [ref=e57]: Tryb Egzaminu
+          - button "Statystyki" [ref=e58]:
+            - img [ref=e59]
+            - generic [ref=e61]: Statystyki
+          - button "Ranking" [ref=e62]:
+            - img [ref=e63]
+            - generic [ref=e65]: Ranking
+        - generic [ref=e66]:
+          - heading "Kurs" [level=4] [ref=e67]
+          - generic [ref=e68]:
+            - generic [ref=e70]: Wprowadzenie do psychologii
+            - generic [ref=e71]: 176 pytań
+            - generic [ref=e72]: Wojciszke, B., Grzyb, T. (2024)
+      - button "Wyloguj się" [ref=e74]:
+        - img [ref=e75]
+        - generic [ref=e77]: Wyloguj się
+    - main [ref=e78]:
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - heading "Materiały" [level=2] [ref=e82]
+          - paragraph [ref=e83]: Przeglądaj streszczenia rozdziałów
+        - generic [ref=e85]:
+          - generic [ref=e86]: ⭐
+          - generic [ref=e87]: 0 XP
+      - generic [ref=e89]:
+        - generic [ref=e91]:
+          - combobox [ref=e92]:
+            - 'option "Rozdział 1: Czym i jak zajmuje się psychologia społeczna" [selected]'
+            - 'option "Rozdział 11: Wpływ społeczny"'
+            - 'option "Rozdział 14: Prospołeczność"'
+          - combobox [ref=e93]:
+            - option "1.1 Definicja i przedmiot psychologii społecznej" [selected]
+            - option "1.2 Podstawowe podejścia teoretyczne"
+            - option "1.3 Eksperyment i logika badań"
+            - option "1.4 Pozostałe metody badawcze"
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - generic [ref=e96]: Rozdział 1 • Sekcja 1 z 4
+            - heading "1.1 Definicja i przedmiot psychologii społecznej" [level=2] [ref=e97]
+          - generic [ref=e98]:
+            - paragraph [ref=e99]:
+              - strong [ref=e100]: Psychologia społeczna
+              - text: zajmuje się szeroko pojętym wpływem społecznym - w jaki sposób to, co robią, czują i myślą jedni ludzie, wpływa na to, co robią, czują i myślą inni.
+            - heading "Człowiek jako istota ultraspołeczna" [level=3] [ref=e101]
+            - list [ref=e102]:
+              - listitem [ref=e103]: Wszystko ważne robimy z innymi ludźmi
+              - listitem [ref=e104]: Związki z ludźmi są źródłem większości emocji
+              - listitem [ref=e105]:
+                - strong [ref=e106]: Wykluczenie społeczne jest dosłownie bolesne
+                - text: (aktywizują się te same obszary mózgu co przy bólu fizycznym)
+              - listitem [ref=e107]: Ludzie o dobrych kontaktach społecznych są szczęśliwsi, bogatsi, zdrowsi i żyją dłużej
+            - heading "Hipoteza wielkości mózgu (Robin Dunbar)" [level=3] [ref=e108]
+            - list [ref=e109]:
+              - listitem [ref=e110]: Wielkość mózgu u naczelnych koreluje z wielkością typowej grupy społecznej
+              - listitem [ref=e111]:
+                - strong [ref=e112]: "Typowa wielkość grupy u ludzi: około 150 osób"
+                - text: (liczba Dunbara)
+              - listitem [ref=e113]: Duży mózg potrzebny do śledzenia relacji społecznych (przy 150 członkach = 22 350 możliwych relacji)
+          - generic [ref=e114]:
+            - button "Poprzednia" [disabled] [ref=e115]:
+              - img [ref=e116]
+              - text: Poprzednia
+            - generic [ref=e118]: 1 / 12
+            - button "Następna" [ref=e119]:
+              - text: Następna
+              - img [ref=e120]
+```

@@ -1,0 +1,96 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e7] [cursor=pointer]:
+    - img [ref=e8]
+  - alert [ref=e11]
+  - generic [ref=e12]:
+    - button [ref=e13]:
+      - img [ref=e14]
+    - complementary [ref=e16]:
+      - generic [ref=e18]:
+        - img [ref=e20]
+        - generic [ref=e22]:
+          - heading "PsychoNauka" [level=1] [ref=e23]
+          - paragraph [ref=e24]: Psychologia Społeczna
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: S
+          - generic [ref=e28]:
+            - heading "statstester" [level=3] [ref=e29]
+            - generic [ref=e30]:
+              - generic [ref=e31]: ★
+              - generic [ref=e32]: Poziom 1
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - generic [ref=e35]: "0"
+            - generic [ref=e36]: Pytań
+          - generic [ref=e37]:
+            - generic [ref=e38]: 0%
+            - generic [ref=e39]: Wynik
+          - generic [ref=e40]:
+            - generic [ref=e41]: 🔥0
+            - generic [ref=e42]: Streak
+      - navigation [ref=e43]:
+        - generic [ref=e44]:
+          - button "Materiały" [ref=e45]:
+            - img [ref=e46]
+            - generic [ref=e48]: Materiały
+          - button "Quiz" [active] [ref=e49]:
+            - img [ref=e50]
+            - generic [ref=e53]: Quiz
+          - button "Tryb Egzaminu" [ref=e54]:
+            - img [ref=e55]
+            - generic [ref=e57]: Tryb Egzaminu
+          - button "Statystyki" [ref=e58]:
+            - img [ref=e59]
+            - generic [ref=e61]: Statystyki
+          - button "Ranking" [ref=e62]:
+            - img [ref=e63]
+            - generic [ref=e65]: Ranking
+        - generic [ref=e66]:
+          - heading "Kurs" [level=4] [ref=e67]
+          - generic [ref=e68]:
+            - generic [ref=e70]: Wprowadzenie do psychologii
+            - generic [ref=e71]: 176 pytań
+            - generic [ref=e72]: Wojciszke, B., Grzyb, T. (2024)
+      - button "Wyloguj się" [ref=e74]:
+        - img [ref=e75]
+        - generic [ref=e77]: Wyloguj się
+    - main [ref=e78]:
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - heading "Quiz" [level=2] [ref=e82]
+          - paragraph [ref=e83]: Pytanie 1 z 176
+        - generic [ref=e85]:
+          - generic [ref=e86]: ⭐
+          - generic [ref=e87]: 0 XP
+      - generic [ref=e89]:
+        - generic [ref=e91]:
+          - generic [ref=e92]: Postęp sesji
+          - generic [ref=e93]: 1%
+        - generic [ref=e96]:
+          - generic [ref=e98]:
+            - generic [ref=e99]: Wprowadzenie do psychologii
+            - generic [ref=e100]: Trudny
+          - heading "Czym zajmuje się psychologia społeczna?" [level=3] [ref=e101]
+          - generic [ref=e102]:
+            - button "A Wpływem innych na myśli, uczucia, zachowania" [ref=e103]:
+              - generic [ref=e104]:
+                - generic [ref=e105]: A
+                - generic [ref=e106]: Wpływem innych na myśli, uczucia, zachowania
+            - button "B Indywidualnymi zaburzeniami psychicznymi" [ref=e107]:
+              - generic [ref=e108]:
+                - generic [ref=e109]: B
+                - generic [ref=e110]: Indywidualnymi zaburzeniami psychicznymi
+            - button "C Wyłącznie komunikacją werbalną" [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e113]: C
+                - generic [ref=e114]: Wyłącznie komunikacją werbalną
+            - button "D Wyłącznie terapią grupową" [ref=e115]:
+              - generic [ref=e116]:
+                - generic [ref=e117]: D
+                - generic [ref=e118]: Wyłącznie terapią grupową
+          - button "Zatwierdź odpowiedź" [disabled] [ref=e120]
+```
