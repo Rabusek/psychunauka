@@ -203,7 +203,7 @@ export default function LearningView() {
         </div>
 
         {/* Navigation */}
-        <div className="border-t border-gray-200 px-4 py-3 bg-gray-50 flex items-center justify-between">
+        <div className="border-t border-gray-200 px-4 py-3 pb-safe bg-gray-50 flex items-center justify-between">
           <button
             onClick={goToPrevious}
             disabled={!hasPrevious}

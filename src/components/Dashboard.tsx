@@ -90,7 +90,7 @@ export default function Dashboard() {
 
       <main className="flex-1 flex flex-col overflow-hidden">
         {/* Header - compact */}
-        <header className={`bg-white shadow-sm border-b border-gray-200 py-3 transition-all ${sidebarOpen ? 'px-6' : 'pl-16 pr-6'}`}>
+        <header className={`bg-white shadow-sm border-b border-gray-200 py-3 pt-[calc(0.75rem+env(safe-area-inset-top,0px))] transition-all ${sidebarOpen ? 'px-6' : 'pl-16 pr-6'}`}>
           <div className="flex items-center justify-between">
             <div>
               <h2 className="text-xl font-bold text-gray-900">
@@ -124,8 +124,8 @@ export default function Dashboard() {
           </div>
         </header>
 
-        {/* Content - reduced padding */}
-        <div className="flex-1 overflow-y-auto p-4">
+        {/* Content - with safe area padding for iOS */}
+        <div className="flex-1 overflow-y-auto p-4 pb-safe">
           {activeMode === 'learn' && currentQuestion && (
             <QuizCard
               key={currentQuestion.id}

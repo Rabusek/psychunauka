@@ -40,8 +40,8 @@ export default function Sidebar({ activeMode, onModeChange, isOpen, onToggle }: 
       {/* Toggle button - always visible */}
       <button
         onClick={onToggle}
-        className={`fixed top-3 z-50 w-10 h-10 bg-white shadow-lg rounded-lg flex items-center justify-center text-gray-600 hover:bg-gray-50 transition-all ${
-          isOpen ? 'left-[216px] md:left-[216px]' : 'left-3'
+        className={`fixed z-50 w-10 h-10 bg-white shadow-lg rounded-lg flex items-center justify-center text-gray-600 hover:bg-gray-50 transition-all top-[calc(0.75rem+env(safe-area-inset-top,0px))] ${
+          isOpen ? 'left-[216px]' : 'left-3'
         }`}
       >
         <svg

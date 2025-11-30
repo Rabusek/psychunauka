@@ -11,6 +11,11 @@ export const metadata: Metadata = {
   title: "PsychoNauka - Psychologia Społeczna",
   description: "Aplikacja do nauki psychologii społecznej. 183 pytań z książki Wojciszke & Grzyb (2024).",
   keywords: ["psychologia", "nauka", "quiz", "psychologia społeczna", "egzamin"],
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    viewportFit: "cover",
+  },
 };
 
 export default function RootLayout({
