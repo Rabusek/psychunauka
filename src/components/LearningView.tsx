@@ -40,7 +40,7 @@ export default function LearningView() {
 
   const renderContent = (content: string) => {
     const lines = content.split('\n');
-    const elements: JSX.Element[] = [];
+    const elements: React.ReactElement[] = [];
     let inList = false;
     let listItems: string[] = [];
     let inTable = false;
